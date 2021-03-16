@@ -2,9 +2,12 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Receta granizado de cafe</title>
+  <link rel="shortcut icon" href="<?php echo $_SERVER ["DOCUMENT_ROOT"]; ?>\Ejercicio git\imagenes\Favicon.ico">
   </head>
-  <body>
+  <body bgcolor="grey">
+  <?php require_once $_SERVER ["DOCUMENT_ROOT"]."/ejercicio git/inicio.php"; ?> 
+    
     <main>
       <h3>INGREDIENTES</h3>
       <ul type="circle">
@@ -17,38 +20,38 @@
       </ul>
         <hr>
         <h3>TABLA DE CANTIDADES</h3>
-        <table border="3">
+        <table Border="3">
           <tr>
-            <th>PAX</th>
-            <th>Hielo</th>
-            <th>Cafe</th>
-            <th>Leche</th>
-            <th>Licor</th>
-            <th>Azucar</th>
+            <th style="color:red">PAX </th>
+            <th style="color:red">Hielo</th>
+            <th style="color:red">Cafe</th>
+            <th style="color:red">Leche</th>
+            <th style="color:red">Licor</th>
+            <th style="color:red">Azucar</th>
           </tr>
           <tr>
-            <td>1</td>
-            <td>Un vaso lleno</td>
-            <td>Dos Cucharadas</td>
-            <td>Medio vaso (en caso de que haga falta agregue un chorrito)</td>
-            <td>Al gusto</td>
-            <td>De 3 a 4 Cucharadas</td>
+            <td style="color:blue">1</td>
+            <td style="color:orange">Un vaso lleno</td>
+            <td style="color:green">Dos Cucharadas</td>
+            <td style="color:blue">Medio vaso (en caso de que haga falta agregue un chorrito)</td>
+            <td style="color:orange">Al gusto</td>
+            <td style="color:green">De 3 a 4 Cucharadas</td>
           </tr>
           <tr>
-            <td>2</td>
-            <td>Dos vasos llenos</td>
-            <td>4 Cucharadas</td>
-            <td>Un vaso lleno (en caso de que haga falta agregue un chorrito)</td>
-            <td>Al gusto</td>
-            <td>De 6 a 7 Cucharadas</td>
+            <td style="color:blue">2</td>
+            <td style="color:orange">Dos vasos llenos</td>
+            <td style="color:green">4 Cucharadas</td>
+            <td style="color:blue">Un vaso lleno (en caso de que haga falta agregue un chorrito)</td>
+            <td style="color:orange">Al gusto</td>
+            <td style="color:green">De 6 a 7 Cucharadas</td>
           </tr>
           <tr>
-            <td>3</td>
-            <td>Tres vasos llenos</td>
-            <td>6 Cucharadas</td>
-            <td>Un vaso y medio (en caso de que haga falta agregue un chorrito)</td>
-            <td>Al gusto</td>
-            <td>De 8 a 9 Cucharadas</td>
+            <td style="color:blue">3</td>
+            <td style="color:orange">Tres vasos llenos</td>
+            <td style="color:green">6 Cucharadas</td>
+            <td style="color:blue">Un vaso lleno (en caso de que haga falta agregue un chorrito)</td>
+            <td style="color:orange">Un vaso y medio (en caso de que haga falta agregue un chorrito)</td>
+            <td style="color:green">De 8 a 9 Cucharadas</td>
           </tr>
 
       </table>
@@ -64,5 +67,7 @@
 
 
     </main>
+    <hr>
+    <?php require_once $_SERVER ["DOCUMENT_ROOT"]. "/ejercicio git/final.php"; ?>
   </body>
 </html>
